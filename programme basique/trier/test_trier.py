@@ -5,8 +5,8 @@ import pytest
 # Lancer classique : python -m unittest -v
 # Lancer avec pytest : python -m pytest test_trier.py -v   
 # Préférez utiliser pytest
-#Pour lancer le covrage : coverage run -m unittest nomfichier.py
-# coverage html
+#Pour lancer le covrage : python -m coverage run -m unittest nomfichier.py
+# python -m coverage html
 
 class testTrier(TestCase):
     def test_saisie(self):
