@@ -21,7 +21,6 @@ class testTrier(TestCase):
         self.assertEqual(trier.trie_croissant([1,2,3,8,9,10]), [1,2,3,8,9,10])
         # Vérifier que [1,2,3,8,9,10] ne rend pas [8,9,10,1,2,3]
         self.assertNotEqual(trier.trie_croissant([1,2,3,8,9,10]), [8,9,10,1,2,3])
-        pass
 
     def test_trie_vide(self):
         # Vérifier que si nous n'envoyons rien, rien n'est retourné.
