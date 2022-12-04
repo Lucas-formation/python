@@ -2,6 +2,7 @@ from unittest import TestCase
 import unittest
 from main import trier 
 import pytest
+import mockito 
 # Lancer classique : python -m unittest -v
 # Lancer avec pytest : python -m pytest test_trier.py -v   
 # Préférez utiliser pytest
